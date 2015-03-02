@@ -1,32 +1,28 @@
-var $add = $('.add');
+var $form = $('.form');
+var $name = $('.main-input');
 var $list = $('.list');
-var $addStart = $('.add-start');
-var $after = $('.after');
-var $before = $('.before');
-var $prime = $('.prime');
-var $remove = $('.remove');
-var $html = $('.html');
 
-$add.on('click', function () {
-  $list.append('<li>Appended List Item</li>');
-});
 
-$addStart.on('click', function () {
-  $list.prepend('<li>Add to beginning</li>');
-});
 
-$after.on('click', function () {
-  $prime.after('<li>Added after</li>');
-});
+$form.on('submit', function (e) {
+    e.preventDefault();
+    
+    
+    var $li = $('<li>').html($name.val());
+    var $nameDl = $('<button class="delete">X</button>');
 
-$before.on('click', function () {
-  $prime.before('<li>Added before</li>');
-});
 
-$remove.on('click', function () {
-  $prime.remove();
-});
+    $nameDl.on('click', function () {
+        $li.remove('li');
+    });
 
-$html.on('click', function () {
-  $list.html('<li>New Item</li><li>Another New Item!</li>');
+  
+    $list.on('click', 'li', function () {
+        $(this).addClass('complete');
+    });
+
+    $li.append($nameDl);
+    $list.prepend($li);
+    $name.val('');
+
 });
