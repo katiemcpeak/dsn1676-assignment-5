@@ -73,3 +73,39 @@ body {
     display: block;
 }
 
+.main-input {
+    border: solid 2px darkcyan;
+    float: left;
+    padding: .85em;
+    width: 15em;
+    margin-left: 2.5em;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: snow;
+}
+
+.add {
+    font-family: serif;
+    float: right;
+    text-align: center;
+    margin-right: 2.3em;
+    width: 4.25em;
+    padding: .24em;
+    border: solid 2px darkcyan;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: honeydew;
+    overflow: hidden;
+}
+
+.add:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: darkcyan;
+}
