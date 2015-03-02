@@ -110,3 +110,8 @@ body {
     text-decoration: line-through;
     color: #9966FF;
 }
+
+li {
+    font-size: 1.25em;
+    margin-top: 1.25em;
+}
