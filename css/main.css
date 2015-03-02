@@ -1,0 +1,75 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust-100%;
+	-ms-text-size-adjust-100%;
+	-webkit-text-size-adjust-100%;
+	-text-size-adjust-100%;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after; {
+	box-sizing: inherit;
+}
+
+body {
+    background-color: mintcream;
+}
+
+.holder {
+    padding: 0;
+    margin: 4em;
+    border: solid 2px darkcyan;
+    border-radius: 10px;
+    background-color: mediumaquamarine;
+    width: 20em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list-holder {
+    padding: 0;
+    margin: auto;
+    background-color: snow;
+    width: 20em;
+    overflow: hidden;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-left: .5em;
+}
+
+.delete{
+    color: black;
+    font-weight: bold;
+    border: solid 2px darkcyan;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    margin-right: 1.2em;
+    height: 3em;
+    width: 2.5em;
+    background-color: honeydew;
+}
+
+.delete:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.label {
+    font-family: serif;
+    display: block;
+}
+
