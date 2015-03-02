@@ -7,12 +7,12 @@
 html {
 	box-sizing: border-box;
 
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-  
-    font-family: sans-serif;
+	-moz-text-size-adjust-100%;
+	-ms-text-size-adjust-100%;
+	-webkit-text-size-adjust-100%;
+	-text-size-adjust-100%;
+    
+  font-family: sans-serif;
 }
 
 *, *::before, *::after; {
@@ -20,15 +20,15 @@ html {
 }
 
 body {
-    background-color: mintcream;
+    background-color: #EBE0FF;
 }
 
 .holder {
     padding: 0;
     margin: 4em;
-    border: solid 2px darkcyan;
+    border: solid 2px #9966FF;
     border-radius: 10px;
-    background-color: mediumaquamarine;
+    background-color: #D6C2FF;
     width: 20em;
     text-align: center;
     overflow: hidden;
@@ -37,7 +37,7 @@ body {
 .list-holder {
     padding: 0;
     margin: auto;
-    background-color: snow;
+    background-color: #F5F0FF;
     width: 20em;
     overflow: hidden;
 }
@@ -54,18 +54,18 @@ body {
 .delete{
     color: black;
     font-weight: bold;
-    border: solid 2px darkcyan;
+    border: solid 2px #9966FF;
     border-radius: 5px;
     float: right;
     text-align: center;
     margin-right: 1.2em;
     height: 3em;
     width: 2.5em;
-    background-color: honeydew;
+    background-color: #EBE0FF;
 }
 
 .delete:hover {
-    background-color: darkcyan;
+    background-color: #9966FF;
     color: white;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .main-input {
-    border: solid 2px darkcyan;
+    border: solid 2px #9966FF;
     float: left;
     padding: .85em;
     width: 15em;
@@ -84,7 +84,7 @@ body {
     overflow: hidden;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    background-color: snow;
+    background-color: #F5F0FF;
 }
 
 .add {
@@ -94,19 +94,19 @@ body {
     margin-right: 2.3em;
     width: 4.25em;
     padding: .24em;
-    border: solid 2px darkcyan;
+    border: solid 2px #9966FF;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    background-color: honeydew;
+    background-color: #EBE0FF;
     overflow: hidden;
 }
 
 .add:hover {
-    background-color: darkcyan;
+    background-color: #9966FF;
     color: white;
 }
 
 .complete {
     text-decoration: line-through;
-    color: darkcyan;
+    color: #9966FF;
 }
